@@ -1,0 +1,328 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "documentId": "an1uhzmaensvlrzxljvr6d0j",
+      "name": "Apple",
+      "slug": "apple",
+      "description": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Leading American brand known for innovative consumer electronics like iPhones, iPads, and MacBooks."
+            }
+          ]
+        }
+      ],
+      "country": "USA",
+      "createdAt": "2025-07-07T03:36:53.136Z",
+      "updatedAt": "2025-07-07T03:36:53.136Z",
+      "publishedAt": "2025-07-07T03:36:53.158Z",
+      "logo": {
+        "id": 8,
+        "documentId": "vv78ni42efan2n96kd40nv0c",
+        "name": "apple",
+        "alternativeText": "apple-icon",
+        "caption": null,
+        "width": 1920,
+        "height": 1080,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_apple",
+            "hash": "thumbnail_apple_3342ed0c85",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 245,
+            "height": 138,
+            "size": 2.48,
+            "sizeInBytes": 2477,
+            "url": "/uploads/thumbnail_apple_3342ed0c85.jpg"
+          },
+          "large": {
+            "name": "large_apple",
+            "hash": "large_apple_3342ed0c85",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 563,
+            "size": 12.68,
+            "sizeInBytes": 12681,
+            "url": "/uploads/large_apple_3342ed0c85.jpg"
+          },
+          "medium": {
+            "name": "medium_apple",
+            "hash": "medium_apple_3342ed0c85",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 422,
+            "size": 8.93,
+            "sizeInBytes": 8931,
+            "url": "/uploads/medium_apple_3342ed0c85.jpg"
+          },
+          "small": {
+            "name": "small_apple",
+            "hash": "small_apple_3342ed0c85",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 281,
+            "size": 5.44,
+            "sizeInBytes": 5443,
+            "url": "/uploads/small_apple_3342ed0c85.jpg"
+          }
+        },
+        "hash": "apple_3342ed0c85",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 29.53,
+        "url": "/uploads/apple_3342ed0c85.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-07T03:36:37.779Z",
+        "updatedAt": "2025-07-07T03:36:37.779Z",
+        "publishedAt": "2025-07-07T03:36:37.781Z"
+      }
+    },
+    {
+      "id": 4,
+      "documentId": "fmdt447kdn2dvjwlv921qgue",
+      "name": "Samsung",
+      "slug": "samsung",
+      "description": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Global electronics giant from South Korea producing smartphones, TVs, and home appliances."
+            }
+          ]
+        }
+      ],
+      "country": "South Korea",
+      "createdAt": "2025-07-07T03:46:15.372Z",
+      "updatedAt": "2025-07-07T03:46:15.372Z",
+      "publishedAt": "2025-07-07T03:46:15.397Z",
+      "logo": {
+        "id": 9,
+        "documentId": "tl6ildgy7wbln33pkki9srjx",
+        "name": "samsung-logo",
+        "alternativeText": "samsung-logo",
+        "caption": null,
+        "width": 2560,
+        "height": 850,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_samsung-logo",
+            "hash": "thumbnail_samsung_logo_c1107cf08c",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 245,
+            "height": 81,
+            "size": 11.37,
+            "sizeInBytes": 11366,
+            "url": "/uploads/thumbnail_samsung_logo_c1107cf08c.png"
+          },
+          "large": {
+            "name": "large_samsung-logo",
+            "hash": "large_samsung_logo_c1107cf08c",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 1000,
+            "height": 332,
+            "size": 50.24,
+            "sizeInBytes": 50240,
+            "url": "/uploads/large_samsung_logo_c1107cf08c.png"
+          },
+          "medium": {
+            "name": "medium_samsung-logo",
+            "hash": "medium_samsung_logo_c1107cf08c",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 750,
+            "height": 249,
+            "size": 35.61,
+            "sizeInBytes": 35606,
+            "url": "/uploads/medium_samsung_logo_c1107cf08c.png"
+          },
+          "small": {
+            "name": "small_samsung-logo",
+            "hash": "small_samsung_logo_c1107cf08c",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 500,
+            "height": 166,
+            "size": 23.73,
+            "sizeInBytes": 23733,
+            "url": "/uploads/small_samsung_logo_c1107cf08c.png"
+          }
+        },
+        "hash": "samsung_logo_c1107cf08c",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 20.65,
+        "url": "/uploads/samsung_logo_c1107cf08c.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-07T03:45:54.019Z",
+        "updatedAt": "2025-07-07T03:46:10.076Z",
+        "publishedAt": "2025-07-07T03:45:54.021Z"
+      }
+    },
+    {
+      "id": 6,
+      "documentId": "a69i750tpf5wxp0yj57bhjwj",
+      "name": "Sony",
+      "slug": "sony",
+      "description": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Japanese multinational company known for electronics, gaming (PlayStation), and entertainment."
+            }
+          ]
+        }
+      ],
+      "country": "Japan",
+      "createdAt": "2025-07-07T03:47:20.684Z",
+      "updatedAt": "2025-07-07T03:47:20.684Z",
+      "publishedAt": "2025-07-07T03:47:20.707Z",
+      "logo": {
+        "id": 10,
+        "documentId": "qt2fr0lfeoqx8nbtvf69b5le",
+        "name": "sony-logo.png",
+        "alternativeText": "sony-logo",
+        "caption": null,
+        "width": 900,
+        "height": 500,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_sony-logo.png",
+            "hash": "thumbnail_sony_logo_e2dac06752",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 245,
+            "height": 136,
+            "size": 9.61,
+            "sizeInBytes": 9605,
+            "url": "/uploads/thumbnail_sony_logo_e2dac06752.png"
+          },
+          "small": {
+            "name": "small_sony-logo.png",
+            "hash": "small_sony_logo_e2dac06752",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 500,
+            "height": 278,
+            "size": 18.64,
+            "sizeInBytes": 18639,
+            "url": "/uploads/small_sony_logo_e2dac06752.png"
+          },
+          "medium": {
+            "name": "medium_sony-logo.png",
+            "hash": "medium_sony_logo_e2dac06752",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 750,
+            "height": 417,
+            "size": 30.97,
+            "sizeInBytes": 30971,
+            "url": "/uploads/medium_sony_logo_e2dac06752.png"
+          }
+        },
+        "hash": "sony_logo_e2dac06752",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 7.54,
+        "url": "/uploads/sony_logo_e2dac06752.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-07T03:47:14.470Z",
+        "updatedAt": "2025-07-07T03:47:14.470Z",
+        "publishedAt": "2025-07-07T03:47:14.470Z"
+      }
+    },
+    {
+      "id": 8,
+      "documentId": "iibapalhfw7cjuh0g2ibrowv",
+      "name": "Xiaomi",
+      "slug": "xiaomi",
+      "description": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Fast-growing Chinese electronics company famous for smartphones, smart home devices, and wearables."
+            }
+          ]
+        }
+      ],
+      "country": "China",
+      "createdAt": "2025-07-07T03:49:04.151Z",
+      "updatedAt": "2025-07-07T03:49:04.151Z",
+      "publishedAt": "2025-07-07T03:49:04.169Z",
+      "logo": {
+        "id": 11,
+        "documentId": "fb1zj6on3zevarsiw09750x0",
+        "name": "xiaomi-mi-logo.png",
+        "alternativeText": "xiaomi-mi-logo",
+        "caption": null,
+        "width": 480,
+        "height": 480,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_png-transparent-xiaomi-mi-logo.png",
+            "hash": "thumbnail_png_transparent_xiaomi_mi_logo_9e7f8a0104",
+            "ext": ".png",
+            "mime": "image/png",
+            "path": null,
+            "width": 156,
+            "height": 156,
+            "size": 2.15,
+            "sizeInBytes": 2155,
+            "url": "/uploads/thumbnail_png_transparent_xiaomi_mi_logo_9e7f8a0104.png"
+          }
+        },
+        "hash": "png_transparent_xiaomi_mi_logo_9e7f8a0104",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 2.06,
+        "url": "/uploads/png_transparent_xiaomi_mi_logo_9e7f8a0104.png",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-07T03:48:04.002Z",
+        "updatedAt": "2025-07-07T03:49:01.342Z",
+        "publishedAt": "2025-07-07T03:48:04.002Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 4
+    }
+  }
+}

@@ -1,0 +1,105 @@
+@use "../../../style/core/color.scss" as *;
+.product-card {
+  position: relative;
+  padding: 6px 10px;
+  border: 1px solid #cccccc5b;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  .product-image {
+    height: 150px !important;
+    img {
+      height: 100% !important;
+      width: 100%;
+    }
+  }
+  .product-bottom {
+    width: 100%;
+    .product-title {
+      font-size: 1rem;
+      font-weight: 700;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 100%;
+    }
+    .product-price {
+      color: $color-primary;
+      font-weight: 700;
+      span.price {
+        text-decoration: line-through;
+        color: $color-black;
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-left: 10px;
+      }
+    }
+  }
+  .product-mid {
+    margin-top: 10px;
+  }
+  .product-card__cart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 20;
+    .btn {
+      text-align: center;
+      background-color: $color-black;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0;
+      color: $color-white;
+      width: 100%;
+    }
+  }
+  .product-brand {
+    background-color: #c9eeffe2;
+    padding: 3px 6px;
+    color: $color-black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 2px;
+    line-height: 1.7;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  .product-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c8e5f234;
+    z-index: -1;
+    transition: all 0.7s;
+    opacity: 0;
+  }
+  &:hover {
+    .product-card__cart {
+      display: flex;
+      opacity: 1;
+    }
+    .product-overlay {
+      opacity: 1;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .product-image {
+      height: 150px !important;
+    }
+    .product-card__cart {
+      width: 90%;
+    }
+  }
+}

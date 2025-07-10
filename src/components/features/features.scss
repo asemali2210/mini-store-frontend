@@ -1,0 +1,28 @@
+@use "../../style/core/color.scss" as *;
+.features {
+  .features__list {
+    .features__item {
+      background-color: #e2e2e247;
+      padding: 15px;
+      border-radius: 6px;
+      width: 100%;
+      .features__item-right {
+        .features__item-title {
+          font-size: 1.2rem;
+          font-weight: 500;
+          color: $color-text;
+          text-transform: uppercase;
+        }
+        .features__item-description {
+          font-size: 1rem;
+          color: $color-dark;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .features__item {
+      margin-bottom: 30px;
+    }
+  }
+}

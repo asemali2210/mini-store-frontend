@@ -1,0 +1,433 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "documentId": "b057jbys6heti4zj7myww0v8",
+      "title": "iPhone",
+      "icon": "FaMobileAlt",
+      "createdAt": "2025-07-04T20:42:58.974Z",
+      "updatedAt": "2025-07-04T20:42:58.974Z",
+      "publishedAt": "2025-07-04T20:42:58.985Z",
+      "description": "Discover the latest iPhones with powerful performance and iconic design.",
+      "slug": "iphone",
+      "order": "1",
+      "publicationState": "published",
+      "metaTitle": "Buy iPad - Apple Tablets for Work & Play | MiniStore",
+      "metaDescription": "Shop all iPad models including iPad Pro, Air, and Mini. Powerful, lightweight, and perfect for your workflow.",
+      "products": [
+        {
+          "id": 18,
+          "documentId": "xwyr5ax0c7oqx9dbvkt1e3ae",
+          "title": "iPhone 15 Pro Max",
+          "slug": "iphone-15-pro-max",
+          "description": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Street space condition pick. Security develop player single third who will mention. Key popular hospital what. Data stand support chance threat wide. Experience vote fund trip capital ready."
+                }
+              ]
+            }
+          ],
+          "short_description": "Plan task no whatever woman.",
+          "price": "4265",
+          "discount_price": "4176",
+          "sku": "IPHOfb6487",
+          "in_stock": true,
+          "stock_quantity": "177",
+          "is_featured": null,
+          "rating": 4.5,
+          "createdAt": "2025-07-07T02:59:04.925Z",
+          "updatedAt": "2025-07-07T05:08:55.331Z",
+          "publishedAt": "2025-07-07T05:08:55.354Z"
+        },
+        {
+          "id": 13,
+          "documentId": "w6mokldgwzvzux211uin1maq",
+          "title": "iPhone 14",
+          "slug": "iphone-14",
+          "description": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Clear when simple treatment drop family car. While probably five. Impact wear trade section."
+                }
+              ]
+            }
+          ],
+          "short_description": "Top write collection special return future.",
+          "price": "1867",
+          "discount_price": "1778",
+          "sku": "IPHOfb6487",
+          "in_stock": true,
+          "stock_quantity": "47",
+          "is_featured": null,
+          "rating": 3,
+          "createdAt": "2025-07-07T03:57:20.414Z",
+          "updatedAt": "2025-07-07T04:43:04.682Z",
+          "publishedAt": "2025-07-07T04:43:04.722Z"
+        }
+      ],
+      "brand": null
+    },
+    {
+      "id": 6,
+      "documentId": "e9xrncrjtqfzn3wsqztrqxux",
+      "title": "Mac",
+      "icon": "FaLaptop",
+      "createdAt": "2025-07-04T20:44:40.371Z",
+      "updatedAt": "2025-07-04T20:44:40.371Z",
+      "publishedAt": "2025-07-04T20:44:40.379Z",
+      "description": "Powerful MacBooks and iMacs designed for performance and productivity.",
+      "slug": "mac",
+      "order": "3",
+      "publicationState": "published",
+      "metaTitle": "Buy MacBook & iMac - Apple Laptops & Desktops | MiniStore",
+      "metaDescription": "Explore Apple MacBook Air, MacBook Pro, and iMac with M1 and M2 chips. Great deals and original warranty.",
+      "products": [
+        {
+          "id": 22,
+          "documentId": "sl2eb4bojyqq7qtp27pl0hop",
+          "title": "MacBook Pro 16 M2",
+          "slug": "macbook-pro-16-m2",
+          "description": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Result value similar reveal about. System staff imagine best including avoid. Of table scene generation career him kind. Policy audience tree dark."
+                }
+              ]
+            }
+          ],
+          "short_description": "Husband evidence beautiful bar personal morning change board.",
+          "price": "2042",
+          "discount_price": "1759",
+          "sku": "MACBa37daa",
+          "in_stock": true,
+          "stock_quantity": "37",
+          "is_featured": null,
+          "rating": 5,
+          "createdAt": "2025-07-08T02:05:47.263Z",
+          "updatedAt": "2025-07-08T02:05:47.263Z",
+          "publishedAt": "2025-07-08T02:05:47.280Z"
+        },
+        {
+          "id": 24,
+          "documentId": "dhaw0o13psp9b6pyim8svf46",
+          "title": "MacBook Air M1",
+          "slug": "macbook-air-m1",
+          "description": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Decade life yard medical not debate watch cost. Begin look today wonder sport attention your. Just budget them surface contain agent. Push road plant officer. Create style opportunity drive far contain."
+                }
+              ]
+            }
+          ],
+          "short_description": "econd impact dog lead simply someone heavy.",
+          "price": "3908",
+          "discount_price": "3852",
+          "sku": "MACBc825ba",
+          "in_stock": true,
+          "stock_quantity": "30",
+          "is_featured": true,
+          "rating": 4.5,
+          "createdAt": "2025-07-08T02:07:33.677Z",
+          "updatedAt": "2025-07-08T02:07:33.677Z",
+          "publishedAt": "2025-07-08T02:07:33.698Z"
+        }
+      ],
+      "brand": null
+    },
+    {
+      "id": 8,
+      "documentId": "y5ka2tvd55h97djyy39df9mo",
+      "title": "Apple Watch",
+      "icon": "FaClock",
+      "createdAt": "2025-07-04T20:45:22.037Z",
+      "updatedAt": "2025-07-04T20:45:22.037Z",
+      "publishedAt": "2025-07-04T20:45:22.047Z",
+      "description": "Stay connected, track fitness, and elevate your style with Apple Watch.",
+      "slug": "apple-watch",
+      "order": "4",
+      "publicationState": "published",
+      "metaTitle": "Buy Apple Watch - Smart & Stylish | MiniStore",
+      "metaDescription": "Find Apple Watch Series 9, SE, and Ultra. Track your health and fitness in style with genuine Apple gear.",
+      "products": [
+        {
+          "id": 27,
+          "documentId": "sws01t53wffjjytswe08p2jt",
+          "title": "Apple Watch Series 9",
+          "slug": "apple-watch-series-9",
+          "description": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Exactly its wait nothing fill. Field network culture. World movie woman international crime start treatment. Particular show leg admit member try. Whom task blue pick kid key. Economy prevent arrive style notice like us."
+                }
+              ]
+            }
+          ],
+          "short_description": "With scene stage also economic manage.",
+          "price": "3528",
+          "discount_price": "3380",
+          "sku": "APPLb7dcc5",
+          "in_stock": true,
+          "stock_quantity": "23",
+          "is_featured": true,
+          "rating": 3,
+          "createdAt": "2025-07-08T02:09:24.058Z",
+          "updatedAt": "2025-07-08T02:09:50.760Z",
+          "publishedAt": "2025-07-08T02:09:50.790Z"
+        }
+      ],
+      "brand": null
+    },
+    {
+      "id": 17,
+      "documentId": "chu7puucgceh0ukxfc5p0fhh",
+      "title": "Accessories",
+      "icon": "FaPlug",
+      "createdAt": "2025-07-04T20:46:28.173Z",
+      "updatedAt": "2025-07-05T00:13:22.650Z",
+      "publishedAt": "2025-07-05T00:13:22.663Z",
+      "description": "Cables, chargers, covers, and more — complete your Apple ecosystem.",
+      "slug": "accessories",
+      "order": "6",
+      "publicationState": "published",
+      "metaTitle": "Buy Apple Accessories - Chargers, Covers & More | MiniStore",
+      "metaDescription": "Official Apple accessories for iPhone, Mac, iPad & more. High quality and 100% compatible.",
+      "products": [],
+      "brand": null
+    },
+    {
+      "id": 18,
+      "documentId": "k6ytzd8mdh5vf6x91p1d1xl3",
+      "title": "AirPods",
+      "icon": "FaHeadphonesAlt",
+      "createdAt": "2025-07-04T20:45:52.940Z",
+      "updatedAt": "2025-07-05T00:13:32.210Z",
+      "publishedAt": "2025-07-05T00:13:32.220Z",
+      "description": "Wireless, effortless, magical. Experience sound like never before.",
+      "slug": "airpods",
+      "order": "5",
+      "publicationState": "published",
+      "metaTitle": "Buy AirPods - Wireless Earbuds by Apple | MiniStore",
+      "metaDescription": "Shop AirPods Pro, AirPods 3rd Gen, and AirPods Max. Enjoy immersive sound and noise cancellation.",
+      "products": [],
+      "brand": null
+    },
+    {
+      "id": 19,
+      "documentId": "xaacsixeffoy9h9rw1t97ms9",
+      "title": "iPad",
+      "icon": "FaTabletAlt",
+      "createdAt": "2025-07-04T20:43:53.857Z",
+      "updatedAt": "2025-07-05T00:13:55.043Z",
+      "publishedAt": "2025-07-05T00:13:55.054Z",
+      "description": "Explore the versatility of iPad for work, creativity, and entertainment.",
+      "slug": "ipad",
+      "order": "2",
+      "publicationState": "published",
+      "metaTitle": "Buy iPad - Apple Tablets for Work & Play | MiniStore",
+      "metaDescription": "Shop all iPad models including iPad Pro, Air, and Mini. Powerful, lightweight, and perfect for your workflow.",
+      "products": [
+        {
+          "id": 17,
+          "documentId": "ohf06qkcej3axo4jnjx539kl",
+          "title": "iPad Pro 12.9",
+          "slug": "ipad-pro-12.9",
+          "description": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Thank area plant miss worker receive. Economic church eye option family similar truth. Town Republican clear she over he. On operation value chair serve item. Three begin only either miss drop rich."
+                }
+              ]
+            }
+          ],
+          "short_description": "Knowledge approach attention trial industry newspaper.",
+          "price": "3438",
+          "discount_price": "3257",
+          "sku": "IPAD0bd274",
+          "in_stock": true,
+          "stock_quantity": "55",
+          "is_featured": null,
+          "rating": 4,
+          "createdAt": "2025-07-07T04:01:01.059Z",
+          "updatedAt": "2025-07-07T05:07:42.407Z",
+          "publishedAt": "2025-07-07T05:07:42.430Z"
+        },
+        {
+          "id": 20,
+          "documentId": "mqxtbri4qhiv6jn53a71vrfz",
+          "title": "MacBook Pro 16 M2",
+          "slug": "ipad-mini-6",
+          "description": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Least lot white receive shake radio create. Scene develop page occur perform two tax. Forward should mean each."
+                }
+              ]
+            }
+          ],
+          "short_description": "Apply cup cost probably line travel high.",
+          "price": "3886",
+          "discount_price": "3746",
+          "sku": "IPAD985c9f",
+          "in_stock": true,
+          "stock_quantity": "15",
+          "is_featured": null,
+          "rating": 3,
+          "createdAt": "2025-07-08T02:02:17.681Z",
+          "updatedAt": "2025-07-08T02:02:17.681Z",
+          "publishedAt": "2025-07-08T02:02:17.701Z"
+        }
+      ],
+      "brand": null
+    },
+    {
+      "id": 26,
+      "documentId": "nxb1lfifw7s0gj1syhzgebjf",
+      "title": "Smart Watche",
+      "icon": null,
+      "createdAt": "2025-07-08T02:36:33.706Z",
+      "updatedAt": "2025-07-08T02:36:33.706Z",
+      "publishedAt": "2025-07-08T02:36:33.717Z",
+      "description": "Stay connected and track your health with our collection of smart watches.",
+      "slug": "smart-watches",
+      "order": "8",
+      "publicationState": "published",
+      "metaTitle": "Smart Watches - Best Deals on Wearables | Mini Store",
+      "metaDescription": "Browse stylish and advanced smartwatches with health tracking and notifications.",
+      "products": [],
+      "brand": null
+    },
+    {
+      "id": 28,
+      "documentId": "ifkvbaoyfooqbygv0t0zfky1",
+      "title": "Audio Devices",
+      "icon": null,
+      "createdAt": "2025-07-08T02:37:09.922Z",
+      "updatedAt": "2025-07-08T02:37:09.922Z",
+      "publishedAt": "2025-07-08T02:37:09.934Z",
+      "description": "Experience premium sound with our range of headphones, earbuds, and Bluetooth speakers.",
+      "slug": "audio-devices",
+      "order": "9",
+      "publicationState": "published",
+      "metaTitle": "Audio Devices - Headphones & Bluetooth Speakers | Mini Store",
+      "metaDescription": "Find top-quality audio products for immersive sound from trusted brands.",
+      "products": [],
+      "brand": null
+    },
+    {
+      "id": 30,
+      "documentId": "ocvhzqsbj7ugfxgh7bhz0ldq",
+      "title": "TVs & Displays",
+      "icon": null,
+      "createdAt": "2025-07-08T02:39:23.862Z",
+      "updatedAt": "2025-07-08T02:39:23.862Z",
+      "publishedAt": "2025-07-08T02:39:23.876Z",
+      "description": "Get cinematic experiences at home with 4K TVs, monitors, and display panels.",
+      "slug": "tvs-displays",
+      "order": "13",
+      "publicationState": "published",
+      "metaTitle": "TVs & Displays - 4K, LED, and Smart TVs | Mini Store",
+      "metaDescription": "Upgrade your home entertainment setup with our range of smart TVs and displays.",
+      "products": [],
+      "brand": null
+    },
+    {
+      "id": 32,
+      "documentId": "tartkr69xhtdfhse9l2xknn9",
+      "title": "Tablets",
+      "icon": "tablets",
+      "createdAt": "2025-07-08T02:40:18.050Z",
+      "updatedAt": "2025-07-08T02:40:18.050Z",
+      "publishedAt": "2025-07-08T02:40:18.061Z",
+      "description": "Powerful and portable tablets for work, play, and creativity on the go.",
+      "slug": "tablets",
+      "order": "13",
+      "publicationState": "published",
+      "metaTitle": "Tablets - Android & Windows Tablets | Mini Store",
+      "metaDescription": "Explore lightweight tablets with powerful features for every use.",
+      "products": [],
+      "brand": null
+    },
+    {
+      "id": 33,
+      "documentId": "hmqbtyhd0e87uw9mts2e6mgp",
+      "title": "Mobile Phones",
+      "icon": null,
+      "createdAt": "2025-07-08T02:34:59.449Z",
+      "updatedAt": "2025-07-08T02:42:09.958Z",
+      "publishedAt": "2025-07-08T02:42:09.976Z",
+      "description": "Discover the latest smartphones from top brands like Samsung, Xiaomi, and Sony.",
+      "slug": "mobile-phones",
+      "order": "8",
+      "publicationState": "published",
+      "metaTitle": "Mobile Phones - Latest Smartphones | Mini Store",
+      "metaDescription": "Shop the newest mobile phones including Galaxy, Redmi, and Xperia at unbeatable prices.",
+      "products": [],
+      "brand": null
+    },
+    {
+      "id": 35,
+      "documentId": "eam6275rsjms6z4wu86b08uy",
+      "title": "Gaming",
+      "icon": null,
+      "createdAt": "2025-07-08T02:44:28.377Z",
+      "updatedAt": "2025-07-08T02:44:28.377Z",
+      "publishedAt": "2025-07-08T02:44:28.388Z",
+      "description": "Tablets - Android & Windows Tablets | Mini Store",
+      "slug": "gaming",
+      "order": "15",
+      "publicationState": "published",
+      "metaTitle": "Gaming- Android & Windows | Mini Store",
+      "metaDescription": "Powerful and portable tablets for work, play, and creativity on the go.",
+      "products": [],
+      "brand": null
+    },
+    {
+      "id": 36,
+      "documentId": "ezmt9luvc8ljk54u4fdtuht5",
+      "title": "Electronics",
+      "icon": null,
+      "createdAt": "2025-07-08T02:29:42.218Z",
+      "updatedAt": "2025-07-08T02:47:41.457Z",
+      "publishedAt": "2025-07-08T02:47:41.476Z",
+      "description": "Explore the versatility of Electronics for work, creativity, and entertainment.",
+      "slug": "electronics",
+      "order": "7",
+      "publicationState": "published",
+      "metaTitle": "Electronics | Mini Store",
+      "metaDescription": "Shop the newest Electronics including Galaxy, Redmi, and Xperia at unbeatable prices.",
+      "products": [],
+      "brand": null
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 13
+    }
+  }
+}
