@@ -11,15 +11,16 @@ import { FaBarsProgress } from "react-icons/fa6";
 import MobileMenu from "./MobileMenu";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
+import useAuth from "@/hooks/useAuth";
 
-export default function MiniNavbar() {
+export default function MiniNavbar({ setIsCartOpen }) {
   // State to manage mobile menu visibility
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
+  const { user, isAuthenticated, status } = useAuth();
   // Disable body scroll when mobile menu is open
 
   useEffect(() => {
@@ -100,14 +101,20 @@ export default function MiniNavbar() {
                   </Link>
                 </li>
                 <li className="mini-navbar__actions--item">
-                  <Link href="/login">
+                  {isAuthenticated ? (
+                    <p className="mini-navbar__user text-capitalize fw-bold text-">
+                      {user.username.slice(0, 2)}
+                    </p>
+                  ) : (
                     <FaUser />
-                  </Link>
+                  )}
+
+                  <Link href="/signin"></Link>
                 </li>
                 <li className="mini-navbar__actions--item">
-                  <Link href="/cart">
+                  <button onClick={() => setIsCartOpen(true)}>
                     <FaShoppingCart />
-                  </Link>
+                  </button>
                 </li>
               </ul>
               <div className="toggle-menu d-md-none d-flex justify-content-end">
@@ -126,6 +133,7 @@ export default function MiniNavbar() {
           <MobileMenu
             isOpen={isMobileMenuOpen}
             setIsOpen={setIsMobileMenuOpen}
+            setIsCartOpen={setIsCartOpen}
           />
         )}
       </AnimatePresence>

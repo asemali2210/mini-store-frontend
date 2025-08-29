@@ -1,11 +1,19 @@
 @use "../../style/core/color.scss" as *;
 .features {
   .features__list {
+    .col-lg-3 {
+      flex: auto;
+      justify-content: stretch;
+      display: flex;
+    }
     .features__item {
       background-color: #e2e2e247;
       padding: 15px;
       border-radius: 6px;
       width: 100%;
+      text-overflow: ellipsis;
+      flex: auto;
+      align-self: stretch;
       .features__item-right {
         .features__item-title {
           font-size: 1.2rem;

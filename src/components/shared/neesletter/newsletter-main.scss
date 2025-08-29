@@ -1,0 +1,29 @@
+@use "@/style/core/_color.scss" as *;
+.newsletter__main {
+  background-size: cover;
+  background-color: #272727;
+  .newsletter__container {
+    color: #fff;
+  }
+  .input__email {
+    border: none;
+    padding: 15px;
+    height: 40px;
+    margin: 0;
+    &:focus {
+      outline: 0;
+    }
+  }
+  .submit__btn {
+    margin: 0;
+    border: none;
+    height: 40px;
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 10px 30px;
+  }
+  .error__message {
+    color: $color-danger;
+    font-size: 1.2rem;
+  }
+}

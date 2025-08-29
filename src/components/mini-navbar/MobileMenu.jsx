@@ -7,22 +7,33 @@ import { CiSearch } from "react-icons/ci";
 import { STRAPI_API_URL } from "@/lip/strapi.config";
 import useStrapiData from "@/hooks/useStrapiData";
 import { FaAngleDown } from "react-icons/fa6";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Logo from "@/../public/logo.svg";
 import Image from "next/image";
-
-export default function MobileMenu({ isOpen, setIsOpen }) {
-  const pathname = usePathname();
-  const { data, loading, error } = useStrapiData("categories?populate=*");
+import { PiShoppingCartSimple } from "react-icons/pi";
+import { FaRegHeart } from "react-icons/fa";
+import { useSelector, useDispatch } from "react-redux";
+import { fetchCategories } from "@/features/ca/categoriesSlice";
+export default function MobileMenu({ setIsCartOpen, setIsOpen }) {
+  /* Fetch categories for the “Shop” dropdown  */
+  /* const { data, loading, error } = useStrapiData("categories?populate=*"); */
+  /* Local state to track which dropdown is open */
   const [openMenu, setOpenMenu] = useState();
+  /* load categories for mobile menu */
+  const dispatch = useDispatch();
+  const { list: categories } = useSelector((state) => state.categories);
   // Memoize toggleMenu to avoid re-renders
   const toggleMenu = useCallback(
     (menu) => {
       setOpenMenu(openMenu === menu ? null : menu);
-      console.log("first");
     },
     [openMenu]
   );
+  useEffect(() => {
+    if (categories.length === 0) {
+      dispatch(fetchCategories());
+    }
+  }, [dispatch, categories, setIsCartOpen]);
   return (
     <>
       <motion.div
@@ -42,7 +53,7 @@ export default function MobileMenu({ isOpen, setIsOpen }) {
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
         <ul className="mobile-menu__links">
-          <li className="mobile-menu__link">
+          <li className="mobile-menu__logo">
             <Link href="/" onClick={() => setIsOpen(false)}>
               <Image src={Logo} alt="Mini Store Logo" priority />
             </Link>
@@ -85,7 +96,7 @@ export default function MobileMenu({ isOpen, setIsOpen }) {
                   transition={{ duration: 0.5, ease: "easeInOut" }}
                 >
                   <ul className="mobile-menu__dropdown-list">
-                    {data?.data.map((category) => (
+                    {categories?.map((category) => (
                       <li
                         className="mobile-menu__dropdown-item"
                         key={category.id}
@@ -108,6 +119,25 @@ export default function MobileMenu({ isOpen, setIsOpen }) {
               Contact
             </Link>
           </li>
+
+          <div className="menu-bottom">
+            <li className="mobile-menu__link">
+              <div onClick={() => setIsCartOpen(true)}>
+                Cart <PiShoppingCartSimple className="__icon" />
+              </div>
+            </li>
+            <li className="mobile-menu__link">
+              <Link href="/wishlist" onClick={() => setIsOpen(false)}>
+                wishlist
+                <FaRegHeart className="__icon" />
+              </Link>
+            </li>
+            <li className="mobile-menu__sign-in">
+              <Link href="/signin" onClick={() => setIsOpen(false)}>
+                signin
+              </Link>
+            </li>
+          </div>
         </ul>
         <div className="mobile-menu__close" onClick={() => setIsOpen(false)}>
           <FaRegWindowClose />

@@ -1,0 +1,42 @@
+@use "./_color.scss" as *;
+
+@mixin quantity-style {
+  border: 1px solid $color-black;
+  padding: 0 7px;
+  border-radius: 7px;
+  color: #000;
+  font-size: 0.9rem;
+  width: 90px;
+  justify-content: space-around;
+  input {
+    font-size: 0.9rem;
+    border-radius: 7px;
+    padding: 7px 0;
+    border: none;
+    width: 50px;
+    text-align: center;
+    height: 100%;
+    width: 30px;
+    &:focus {
+      outline: 0;
+    }
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  button {
+    padding: 0;
+  }
+}
+
+@mixin text-truncate {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

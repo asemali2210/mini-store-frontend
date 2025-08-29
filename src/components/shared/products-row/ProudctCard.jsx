@@ -3,41 +3,37 @@ import "./product-card.scss";
 import Image from "next/image";
 import { BsCartPlusFill } from "react-icons/bs";
 import { useRouter } from "next/navigation";
+import { getImageUrl } from "@/lip/strapi.config";
+import useCartActions from "@/features/cart/useCartActions";
+import { Bounce, ToastContainer } from "react-toastify";
 
-export default function ProductCard({
-  src,
-  alt,
-  title,
-  price,
-  brand,
-  stock,
-  stockQuantity,
-  discount,
-  slug,
-}) {
+export default function ProductCard({ product }) {
+  const { addToCartItem } = useCartActions();
   const router = useRouter();
-
   const handleCardClick = () => {
-    router.push(`/products/${slug}`);
+    router.push(`/products/${product.slug}`);
   };
 
-  const handleAddToCart = (e) => {
+  const handleAddToCart = async (e) => {
     e.stopPropagation(); // prevent navigating to product
-    console.log("🛒 Add to cart clicked for", title);
+    await addToCartItem({ product: product, quantity: Number(1) });
   };
-
   return (
     <div className="product-card" onClick={handleCardClick} role="button">
       <div className="product-overlay"></div>
 
-      <div className={`${brand ? "d-block" : "d-none"} product-brand`}>
-        {brand}
+      <div className={`${product.brand ? "d-block" : "d-none"} product-brand`}>
+        {product.brand.name}
       </div>
 
       <div className="product-image">
         <Image
-          src={src}
-          alt={alt}
+          src={
+            product.images?.[0]
+              ? getImageUrl(product.images[0])
+              : "/fallBackImage.jpg"
+          }
+          alt={product.images?.[0]?.alternativeText || product.title}
           width={250}
           height={250}
           style={{ objectFit: "contain" }}
@@ -47,8 +43,8 @@ export default function ProductCard({
 
       <div className="product-mid d-flex justify-content-between align-items-center">
         <div className="product-stock">
-          {stock ? (
-            <p className="--in-stock">In Stock: {stockQuantity}</p>
+          {product.stock ? (
+            <p className="--in-stock">In Stock: {product.stockQuantity}</p>
           ) : (
             <p className="--out-of-stock">Sold Out</p>
           )}
@@ -56,9 +52,10 @@ export default function ProductCard({
       </div>
 
       <div className="product-bottom">
-        <p className="product-title">{title}</p>
+        <p className="product-title">{product.title}</p>
         <p className="product-price">
-          ${discount} <span className="price">${price}</span>
+          ${product.price}{" "}
+          <span className="price">${product.discount_price}</span>
         </p>
       </div>
 

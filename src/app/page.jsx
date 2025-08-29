@@ -9,6 +9,8 @@ import {
   fetchAllProducts,
   filterAppleProducts,
 } from "@/features/products/productsSlice";
+import SaleSection from "@/components/shared/sale-section/SaleSection";
+import Newsletter from "@/components/shared/neesletter/Newsletter";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -43,6 +45,8 @@ export default function Home() {
         loading={loading}
         error={error}
       />
+      <SaleSection />
+      <Newsletter />
     </MainLayout>
   );
 }

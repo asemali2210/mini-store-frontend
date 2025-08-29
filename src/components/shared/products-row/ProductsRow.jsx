@@ -2,7 +2,6 @@ import "./product-row.scss";
 
 import Link from "next/link";
 import ProductCard from "./ProudctCard";
-import { getImageUrl } from "@/lip/strapi.config";
 import ProductCardSkeleton from "./ProductCardSkeleton";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 export default function ProductsRow({
@@ -60,7 +59,6 @@ export default function ProductsRow({
     );
   }
 
-  console.log(loading);
   return (
     <div className="products-row">
       <div className="container">
@@ -80,21 +78,7 @@ export default function ProductsRow({
                   className="col-6 col-sm-4 col-md-3 product-card_custom-col"
                   key={product.id}
                 >
-                  <ProductCard
-                    title={product.title}
-                    src={
-                      product.images?.[0]
-                        ? getImageUrl(product.images[0])
-                        : "/fallBackImage.jpg"
-                    }
-                    alt={product.images?.[0]?.alternativeText || product.title}
-                    price={product.price}
-                    brand={product.brand?.name || ""}
-                    stock={product.in_stock}
-                    stockQuantity={product.stock_quantity}
-                    discount={product.discount_price}
-                    slug={product.slug}
-                  />
+                  <ProductCard product={product} />
                 </div>
               ))}
             </div>

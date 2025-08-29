@@ -1,0 +1,24 @@
+@use "@/style/core/_color.scss" as *;
+.sale__section {
+  .sale__righ-contact {
+    background-color: $color-gray-4;
+
+    .top__heading {
+      color: $color-blue;
+      font-weight: 700;
+      font-size: 1.3rem;
+    }
+    .heading {
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    .sub__heading {
+      width: 60%;
+      font-size: 1.3rem;
+    }
+    .__link {
+      text-decoration: underline;
+      font-size: 1.3rem;
+    }
+  }
+}

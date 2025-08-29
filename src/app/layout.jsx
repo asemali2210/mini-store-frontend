@@ -1,4 +1,4 @@
-import ProvidersWrapper from "./layout-client";
+import ProvidersWrapper from "./layout-client.jsx";
 
 export const metadata = {
   title: "Mini Store",
